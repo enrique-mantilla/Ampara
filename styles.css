@@ -81,7 +81,7 @@
 
 /*Seccion Hablar ahora*/
 .seccion-hablar {
-  background-image: url("img/fondo-hablar.png");
+  background-image: url("/img/fondo-hablar.png");
   background-size: cover;
   background-position: center;
   padding: 80px 40px;

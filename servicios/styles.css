@@ -133,11 +133,8 @@
   font-size: 24px;
   line-height: 36px;
   color: #39225A;
-  margin-left: 1rem;
-}
-
-.servicio1-texto p {
-  line-height: 0.5;
+  margin-left: 1.5rem;
+  margin-top: -1rem;
 }
 
 .servicio1-boton {
@@ -187,11 +184,8 @@
   font-size: 24px;
   line-height: 36px;
   color: #39225A;
-  margin-left: 1rem;
-}
-
-.servicio2-texto p {
-  line-height: 0.5;
+  margin-left: 1.5rem;
+  margin-top: -1rem;
 }
 
 .servicio2-boton {
@@ -256,10 +250,9 @@
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 20px;
-  position: relative;
-  left: 20rem;
-  top: 8rem;
+  line-height: 48px;
+  margin-left: 20rem;
+  margin-top: 8rem;
 }
 
 .servicio-ayuda-explicacion-texto-derecha {
@@ -268,17 +261,15 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 12px;
+  line-height: 36px;
   text-align: justify;
   display: inline-block;
-  position: relative;
-  right: 20rem;
+  margin-right: 20rem;
   padding-left: 10rem;
   padding-bottom: 5rem;
   padding-right: 10rem;
   padding-top: 5rem;
 }
-
 
 /*Seccion servicio-acompañamiento*/
 .seccion-servicio-acompañamiento {
@@ -321,27 +312,27 @@
 
 .servicio-acompañamiento-explicacion-texto-izquierda {
   color: #ffffff;
+  justify-content: center;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 20px;
-  position: relative;
-  left: 20rem;
-  top: 8rem;
+  line-height: 48px;
+  margin-left: 20rem;
+  margin-top: 8rem;
 }
 
 .servicio-acompañamiento-explicacion-texto-derecha {
   background-color: #ffffff;
+  justify-content: center;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 12px;
+  line-height: 36px;
   text-align: justify;
   display: inline-block;
-  position: relative;
-  right: 20rem;
+  margin-right: 20rem;
   padding-left: 10rem;
   padding-bottom: 5rem;
   padding-right: 10rem;
