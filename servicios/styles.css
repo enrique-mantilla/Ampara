@@ -18,6 +18,8 @@
   height: 100px;
   width: auto;
   margin-right: -50px;
+  margin-bottom: -15px;
+  margin-top: -20px;
 }
 
 .logo h1 {
@@ -76,120 +78,6 @@
   background-color: black;
 }
 
-
-/*Seccion Hablar ahora*/
-.seccion-hablar {
-  background-image: url("../img/fondo-hablar.png");
-  background-size: cover;
-  background-position: center;
-  padding: 80px 40px;
-  min-height: 100vh;
-}
-
-.div-hablar {
-  display: flex;
-  gap: 20px;
-}
-
-.seccion-hablar h1 {
-  font-size: 65px;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  margin-top: 0px;
-}
-
-.card {
-  display: flex;
-  background-color: white;
-  border-radius: 10px;
-  width: 400px;
-  padding: 20px;
-  text-align: left;
-  font-family: "Poppins", sans-serif;
-}
-
-.card-icono {
-  border-radius: 12px;
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 16px;
-}
-
-.card-icono img {
-  width: 80px;
-  height: 80px;
-}
-
-.card-text h3 {
-  margin: 0 0 6px;
-  font-size: 24px;
-  font-weight: 700;
-  color: #000000;
-}
-
-.card-text p {
-  margin: 0;
-  font-size: 12px;
-  color: #555555;
-}
-
-.inf-usuario {
-  display: flex;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  margin-top: 100px;
-  gap: 120px;
-}
-
-.inf-usuario h2 {
-  font-weight: 400;
-  font-size: 18px;
-}
-
-.seccion-form {
-  background-color: #ffffff;
-  color: #000000;
-  padding: 20px 60px;
-  border-radius: 18px;
-  width: 380px;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.form-grupo {
-  display: block;
-  margin-bottom: 4px;
-}
-
-.form-grupo input {
-  width: 100%;
-  padding: 8px 14px;
-  border-radius: 100px;
-  border: 1px solid #000000;
-  font-size: 10px;
-  font-family: "Poppins", sans-serif;
-}
-
-.btn-chat {
-  margin-top: 12px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 32px;
-  border-radius: 500px;
-  border: none;
-  background-color: #482983;
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
-}
-
 /*Seccion Servicios*/
 .seccion-servicios {
   padding-top: 6rem;
@@ -224,7 +112,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background-image: url("../img/servicio-image1.png");
+  background-image: url("/img/servicio-ayuda.png");
 }
 
 .servicio1-contenido {
@@ -272,13 +160,13 @@
 .servicio2 {
   flex: 1;
   height: 692px;
+  background-image: url("/img/servicio-acompañamiento.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background-image: url("../img/servicio-image2.png");
 }
 
 .servicio2-contenido {
@@ -322,6 +210,146 @@
   padding-left: 2rem;
   top: 0.5rem;
 }
+
+/*Seccion servicio-ayuda*/
+.seccion-servicio-ayuda {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.servicio-ayuda-titulo {
+  padding-top: 13rem;
+  height: 100%;
+  width: auto;
+  background-image: url(/img/servicio-ayuda-alt.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+}
+
+.seccion-servicio-ayuda h2 {
+  position: relative;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 64px;
+  font-weight: 600;
+  padding-left: 4rem;
+  bottom: 13rem;
+}
+
+.servicio-ayuda-explicacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #482983;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.servicio-ayuda-explicacion-texto-izquierda {
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 20px;
+  position: relative;
+  left: 20rem;
+  top: 8rem;
+}
+
+.servicio-ayuda-explicacion-texto-derecha {
+  background-color: #ffffff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 12px;
+  text-align: justify;
+  display: inline-block;
+  position: relative;
+  right: 20rem;
+  padding-left: 10rem;
+  padding-bottom: 5rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+}
+
+
+/*Seccion servicio-acompañamiento*/
+.seccion-servicio-acompañamiento {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.servicio-acompañamiento-titulo {
+  padding-top: 13rem;
+  height: 100%;
+  width: auto;
+  background-image: url(/img/servicio-acompañamiento-alt.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+}
+
+.seccion-servicio-acompañamiento h2 {
+  position: relative;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 64px;
+  font-weight: 600;
+  padding-left: 4rem;
+  bottom: 13rem;
+}
+
+.servicio-acompañamiento-explicacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #482983;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.servicio-acompañamiento-explicacion-texto-izquierda {
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 20px;
+  position: relative;
+  left: 20rem;
+  top: 8rem;
+}
+
+.servicio-acompañamiento-explicacion-texto-derecha {
+  background-color: #ffffff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 12px;
+  text-align: justify;
+  display: inline-block;
+  position: relative;
+  right: 20rem;
+  padding-left: 10rem;
+  padding-bottom: 5rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+}
+
+
+
 
 /*Footer*/
 .footer {
