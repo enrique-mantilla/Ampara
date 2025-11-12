@@ -112,7 +112,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background-image: url("/img/servicio-ayuda.png");
+  background-image: url("../img/servicio-ayuda.png");
 }
 
 .servicio1-contenido {
