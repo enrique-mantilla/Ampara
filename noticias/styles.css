@@ -1,4 +1,3 @@
-/*Header*/
 .topheader {
   position: static;
   background-color: #fcf8fc;
@@ -35,7 +34,6 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  gap: 20px;
   margin: 0;
   padding: 0;
 }
@@ -45,6 +43,15 @@
   text-decoration: none;
   color: #000000;
   font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+
+
 }
 
 .btn-sos {
@@ -57,20 +64,32 @@
   margin-left: 100px;
 }
 
-.btn-ingresar {
+.btn-cuenta {
   background-color: #482983;
-  color: white;
-  padding: 10px 20px;
   border-radius: 20px;
-  font-weight: 600;
   text-decoration: none;
   margin-right: 50px;
+  white-space: nowrap;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.3rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #FFFFFF;
 }
 
-.btn-ingresar::after {
-  content: "›";
-  margin-left: 8px;
-  font-size: 16px;
+.btn-cuenta img{
+  width: 27px;
+  height: auto;
+  position: relative;
+  right: 6px;
+  top: 6px;
 }
 
 .menu-horizontal li a:hover {
@@ -78,7 +97,8 @@
   background-color: black;
 }
 
-/*Seccion nosotros*/
+
+/*Seccion noticias*/
 .seccion-noticias {
     padding-top: 6rem;
     background-color: #482983;
