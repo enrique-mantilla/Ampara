@@ -157,7 +157,7 @@
 .servicio2 {
   flex: 1;
   height: 692px;
-  background-image: url("/img/servicio-acompañamiento.png");
+  background-image: url("../img/servicio-acompañamiento.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -216,7 +216,7 @@
   padding-top: 13rem;
   height: 100%;
   width: auto;
-  background-image: url(/img/servicio-ayuda-alt.png);
+  background-image: url(../img/servicio-ayuda-alt.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -282,7 +282,7 @@
   padding-top: 13rem;
   height: 100%;
   width: auto;
-  background-image: url(/img/servicio-acompañamiento-alt.png);
+  background-image: url(../img/servicio-acompañamiento-alt.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

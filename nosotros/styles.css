@@ -112,7 +112,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background-image: url("/img/servicio-ayuda.png");
+  background-image: url("../img/servicio-ayuda.png");
 }
 
 .servicio1-contenido {
@@ -157,7 +157,7 @@
 .servicio2 {
   flex: 1;
   height: 692px;
-  background-image: url("/img/servicio-acompañamiento.png");
+  background-image: url("../img/servicio-acompañamiento.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@
 
 /*Seccion nosotros*/
 .seccion-nosotros {
-    background-image: url(/img/fondo-hablar.png);
+    background-image: url(../img/fondo-hablar.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
