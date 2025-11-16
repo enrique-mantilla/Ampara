@@ -13,11 +13,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Poppins',sans-serif;
   color: white;
-  font-size: 40px;
-  font-weight: 600;
   margin-bottom: 100px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;
+
 }
 
 .cards{
@@ -84,18 +88,40 @@
   color: #555555;
 }
 
-.form-imagen{
-  justify-content: center;
+
+/*Registro usuario normal*/
+
+.nombre-registro-usuario{
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  color: white;
+  margin-bottom: 100px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;
+
+}
+
+.form-imagen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5rem;
+  gap: 8rem;
 }
 
 .form{
   width: 300px;
   background-color: white;
-  padding: 20px;
-  height: 420px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
   border-radius: 10px;
 }
 
@@ -103,13 +129,32 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 5px;
-  font-family: 'Poppins',sans-serif;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #000000;
 }
 
 .titulo input{
   border-radius: 10px;
   border: 1px solid #482983;
   padding: 8px;
+
+}
+
+.checkbox {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  
+
+  color: #000000;
 }
 
 .terminos{
@@ -127,6 +172,18 @@
   color: white;
   margin-top: 25px;
   border-radius: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.reg-img img {
+  width: 25rem;
+  height: auto;
 }
 
 /*FOOTER*/

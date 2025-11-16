@@ -4,18 +4,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
-  box-sizing: border-box;
-}
-
-.contenedor-topheader{
-  display: flex;
-  align-items: center;
   justify-content: space-between;
-  width: 100%;
-  max-width: 1200px; /* evita que se estire demasiado */
-  margin: 0 auto; /* centra el contenido horizontalmente */
+  padding: 0 5px;
 }
 
 .logo {
@@ -26,23 +16,24 @@
 .logo img {
   height: 100px;
   width: auto;
-  margin-right: 5px;
+  margin-right: -50px;
+  margin-bottom: -15px;
+  margin-top: -20px;
 }
 
 .logo h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 32px;
+  font-size: 36px;
   color: #482983;
   margin: 0;
-  margin-left:-70px;
+  margin-left: -20px;
 }
 
 .menu-horizontal {
   list-style: none;
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  gap: 25px;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -52,7 +43,15 @@
   text-decoration: none;
   color: #000000;
   font-family: "Poppins", sans-serif;
+
+  font-style: normal;
   font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+
+
 }
 
 .btn-sos {
@@ -62,21 +61,35 @@
   border-radius: 20px;
   font-weight: 600;
   text-decoration: none;
+  margin-left: 100px;
 }
 
-.btn-ingresar {
+.btn-cuenta {
   background-color: #482983;
-  color: white;
-  padding: 10px 20px;
   border-radius: 20px;
-  font-weight: 600;
   text-decoration: none;
+  margin-right: 50px;
+  white-space: nowrap;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.3rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #FFFFFF;
 }
 
-.btn-ingresar::after {
-  content: "›";
-  margin-left: 8px;
-  font-size: 16px;
+.btn-cuenta img{
+  width: 27px;
+  height: auto;
+  position: relative;
+  right: 6px;
+  top: 6px;
 }
 
 .menu-horizontal li a:hover {
@@ -84,40 +97,34 @@
   background-color: black;
 }
 
-/*PANTALLA REGISTRO*/
-.registro {
-  background-image: url("img/fondo-hablar.png");
+
+
+/*Seccion Hablar ahora*/
+.seccion-hablar {
+  background-image: url("../img/fondo-hablar.png");
   background-size: cover;
   background-position: center;
   padding: 80px 40px;
   min-height: 100vh;
-  align-items: center;
 }
 
-.nombre{
+.div-hablar {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Poppins',sans-serif;
-  color: white;
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 100px;
-}
-
-.cards{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 20px;
+}
+
+.seccion-hablar h1 {
+  font-size: 65px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin-top: 0px;
 }
 
 .card {
   display: flex;
   background-color: white;
   border-radius: 10px;
-  width: 500px;
-  height: 180px;
+  width: 400px;
   padding: 20px;
   text-align: left;
   font-family: "Poppins", sans-serif;
@@ -125,7 +132,7 @@
 
 .card-icono {
   border-radius: 12px;
-  padding: 5px 5px;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -150,52 +157,63 @@
   color: #555555;
 }
 
-.form-imagen{
-  justify-content: center;
+.inf-usuario {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  margin-top: 100px;
+  gap: 120px;
 }
 
-.form{
-  width: 300px;
-  background-color: white;
-  padding: 20px;
-  height: 420px;
-  border-radius: 10px;
+.inf-usuario h2 {
+  font-weight: 400;
+  font-size: 18px;
 }
 
-.titulo{
+.seccion-form {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 60px;
+  border-radius: 18px;
+  width: 380px;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
-  margin-bottom: 5px;
-  font-family: 'Poppins',sans-serif;
-}
-
-.titulo input{
-  border-radius: 10px;
-  border: 1px solid #482983;
-  padding: 8px;
-}
-
-.terminos{
-  padding: 20px 0px;
-  font-size: 10px;
-}
-
-.btn-crearCuenta{
-  text-decoration: none;
-  text-align: center;
-  display: flex;
   justify-content: center;
-  padding: 10px 10px;
-  background-color: #482983;
-  color: white;
-  margin-top: 25px;
-  border-radius: 10px;
 }
 
-/*FOOTER*/
+.form-grupo {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form-grupo input {
+  width: 100%;
+  padding: 8px 14px;
+  border-radius: 100px;
+  border: 1px solid #000000;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-chat {
+  margin-top: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 32px;
+  border-radius: 500px;
+  border: none;
+  background-color: #482983;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+
+/*Footer*/
 .footer {
   background-color: #482983;
   color: white;
