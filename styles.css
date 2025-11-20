@@ -104,6 +104,85 @@
 
 }
 
+/*Servicios*/
+.servicios {
+  background-color: #F2EAF4;
+}
+
+.servicios-contenido h2{
+  color: #482983;
+  margin: 0;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 48px;
+
+
+}
+
+.servicios-brindados {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #331F59;
+
+}
+
+.servicio-apoyo img{
+  height: 9rem;
+}
+.servicio-apoyo p {
+  margin: 0;
+  text-align: center;
+}
+
+
+.servicio-foro img{
+  height: 9rem;
+}
+.servicio-foro p {
+  margin: 0;
+  text-align: center;
+}
+
+
+/*Testimonios*/
+.testimonios {
+  background-color: #F2EAF4;
+}
+
+.testimonios-contenido h2{
+  color: #482983;
+  margin: 0;
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 48px;
+}
+
+.testimonios-textos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+}
+
+
 /*FOOTER*/
 .footer {
   background-color: #482983;
