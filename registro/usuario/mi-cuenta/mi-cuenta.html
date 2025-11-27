@@ -35,7 +35,7 @@
             <div class="opc-perfil">
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <div class="opcion">
                                 <div class="opc-img">
                                     <img src="../img/avatarPerfil.png" alt="user"/>
@@ -47,7 +47,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <div class="opcion">
                                 <div class="opc-img">
                                     <img src="../img/favoritosPerfil.png" alt="user"/>
@@ -59,7 +59,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <div class="opcion">
                                 <div class="opc-img">
                                     <img src="../img/citasPerfil.png" alt="user"/>
@@ -71,19 +71,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
-                            <div class="opcion">
-                                <div class="opc-img">
-                                    <img src="../img/notificacionesPerfil.png" alt="user"/>
-                                </div>
-                                <div class="opc-texto">
-                                    <h5>Notificaciones</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
+                        <a href="#">
                             <div class="opcion">
                                 <div class="opc-img">
                                     <img src="../img/reportarPerfil.png" alt="user"/>
@@ -95,7 +83,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <div class="opcion">
                                 <div class="opc-img">
                                     <img src="../img/cerrarSesion.png" alt="user"/>
@@ -108,7 +96,7 @@
                     </li>
     
                     <li>
-                        <a href="">
+                        <a href="#">
                             <div class="opcion">
                                 <div class="opc-img">
                                     <img src="../img/eliminarCuenta.png" alt="user"/>
@@ -121,86 +109,96 @@
                     </li>
 
                 </ul>
+
             </div>
 
-            <div class="div-inf-emergencia">
-                <h2>Información Contacto de Emergencia</h2>
+            <div class="div-inf">
+                <div class="inf-personal">
+                    <h4>Informacion personal</h4>
+                </div>
 
-                <div class="card-emergencia">
-                    <!-- Avatar -->
-                    <div class="contenedor-avatar">
-                        <div class="avatar">
-                            <img src="../img/avatarPerfil.png" alt="avatar" />
+                <div class="inf-card">
+                    <div class="inf-contenido">
+                        <div class = "inf-imagenPerfil">
+                            <img src="../img/avatarPerfil-FondoCircular.png" alt="icono usuario">
+                        </div>
+                        <div class = "inf-detalle">
+                            <div class="inf-detalle1">
+                                <p>Anonimo#40</p>
+                            </div>
+                            <div class = "inf-detalle2">
+                                <p>anonimo@gmail.com</p>
+                                <p>999999999</p>
+                                <p>******</p>
+                            </div>
                         </div>
                     </div>
+                    <div class="div-btn-editar">
+                        <a href="#" class="boton-morado">Editar Informacion</a>
+                    </div>
+                </div>
 
-                    <!-- Detalles -->
-                    <div class="detalle-emer">
-                        <!-- Campo: Nombre -->
-                        <div class="campo-emer">
-                            <div class="campo-header">
-                                <label class="campo-label">Nombre completo o alias</label>
-                                <label class="campo-ayuda">Cambiar nombre</label>
+                <div class = "favoritos">
+                    <h4>Favoritos</h4>
+
+                    <div class = "favoritos-contenido">
+                        <div class = "favoritos-bloque">
+                            <div class = "inf-detalle3">
+                                <p>Noticia#400</p>
+                                <p>Noticia#4050</p>
+                                <p>Noticia#4</p>
+                                <p>Noticia#804</p>
+                                <div class = "footer-favoritos">
+                                    <p> Todas las noticias</p>
+                                </div>
                             </div>
-                            <input
-                            type="text"
-                            class="campo-input"
-                            value="Juan Carlos Rodríguez"
-                            />
                         </div>
-
-                        <!-- Campo: Correo -->
-                        <div class="campo-emer">
-                            <div class="campo-header">
-                                <label class="campo-label">Correo electrónico</label>
-                                <label class="campo-ayuda">Campo no obligatorio</label>
+                        <div class = "favoritos-bloque">
+                            <div class = "inf-detalle3">
+                                <p>Directorio#400</p>
+                                <p>Directorio#4050</p>
+                                <p>Directorio#4</p>
+                                <p>Directorio#804</p>
+                                <div class = "footer-favoritos">
+                                    <p> Todos los directorios</p>
+                                </div>
                             </div>
-                            <input
-                            type="email"
-                            class="campo-input"
-                            value="JuanCarlos@gmail.com"
-                            />
                         </div>
-
-                        <!-- Campo: Teléfono -->
-                        <div class="campo-emer">
-                            <div class="campo-header">
-                                <label class="campo-label">Número telefónico</label>
-                                <label class="campo-ayuda">Campo no obligatorio</label>
+                        <div class = "favoritos-bloque">
+                            <div class = "inf-detalle3">
+                                <p>Instituciones#400</p>
+                                <p>Instituciones#4050</p>
+                                <p>Instituciones#4</p>
+                                <p>Instituciones#804</p>
+                                <div class = "footer-favoritos">
+                                    <p> Todas las instituciones</p>
+                                </div>
                             </div>
-                            <input
-                            type="tel"
-                            class="campo-input"
-                            value="123456789"
-                            />
-                        </div>
-
-                        <!-- Campo: Contraseña -->
-                        <div class="campo-emer">
-                            <div class="campo-header">
-                                <label class="campo-label">Contraseña</label>
-                                <label class="campo-ayuda">Cambiar contraseña</label>
-                            </div>
-                            <input
-                            type="password"
-                            class="campo-input"
-                            value="************"
-                            />
-                        </div>
-
-                        <!-- Botones inferiores -->
-                        <div class="acciones-emergencia">
-                            <button class="btn-outline">Eliminar Contacto</button>
-                            <button class="btn-outline">Guardar Contacto</button>
                         </div>
                     </div>
                 </div>
+
+                <div class = "citas">
+                    <h4>Mis citas</h4>
+
+                    <div class="citas-contenido">
+                        <div class="inf-contenido">
+                            <div class = "inf-detalle2">
+                                <p>Cita#201</p>
+                            </div>
+                            <div class = "inf-detalle2">
+                                <p>12/02/25</p>
+                            </div>
+                        </div>
+                        <div class="boton-historial">
+                            <a href="#" class="boton-morado">Ver historial</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-
-
         </section>
-        
 
         <footer class="footer">
             <div class="footer-links">
