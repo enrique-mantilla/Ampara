@@ -2,13 +2,24 @@
 
 const cerrarSesion = document.getElementById("boton-cerrar-sesion");
 
+const eliminarCuenta = document.getElementById("boton-eliminar-cuenta")
+
 cerrarSesion.addEventListener("click", function(e) {
     e.preventDefault(); // detiene la navegación automática
-    const resultado = confirm("¿Estás seguro de continuar?");
+    const resultado = confirm("¿Está seguro de querer cerrar sesión?");
     if (resultado) {
-        // Si confirma, navegamos al href
+        // Si confirma, se redirige a la landing page
+        alert("Cerrando sesión...");
         window.location.href = cerrarSesion.href;
-    } else {
-        console.log("Acción cancelada");
+    }
+});
+
+eliminarCuenta.addEventListener("click", function(e) {
+    e.preventDefault(); // detiene la navegación automática
+    const resultado = confirm("¿Está seguro de eliminar su cuenta?");
+    if (resultado) {
+        // Si confirma, se redirige a la landing page
+        alert("Eliminando cuenta...");
+        window.location.href = eliminarCuenta.href;
     }
 });
