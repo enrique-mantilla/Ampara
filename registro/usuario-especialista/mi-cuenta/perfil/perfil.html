@@ -145,7 +145,7 @@
                             </div>
 
                             <div class = "textarea-descripcion">
-                                <textarea name="descripcion" id="descripcion">Ofrezco apoyo psicológico especializado en ansiedad, depresión y autoestima.</textarea>
+                                <textarea name="descripcion_textarea" id="descripcion_textarea">Ofrezco apoyo psicológico especializado en ansiedad, depresión y autoestima.</textarea>
                             </div>
 
                             <div class = "grupo-etiquetas">
@@ -183,38 +183,35 @@
 
                         <div class = "contenido-derecho">
                             <div class="info-perfil">
-                                <div class = "info-formulario">
+                                <form action="../mi-cuenta.html" onsubmit="return guardarPerfil(event);" class = "info-formulario">
                                     <div class = "formulario">
                                         <label for=""> Nombre completo o alias</label>
-                                        <input type="text" class = "input-texto">
+                                        <input type="text" class = "input-texto" id = "nombre">
                                     </div>
 
                                     <div class = "formulario">
                                         <label for=""> Correo Electrónico</label>
-                                        <input type="text" class = "input-texto">
+                                        <input type="text" class = "input-texto" id = "correo">
                                     </div>
 
                                     <div class = "formulario">
                                         <label for=""> Número telefónico</label>
-                                        <input type="text" class = "input-texto">
+                                        <input type="text" class = "input-texto" id = "numero">
                                     </div>
 
                                     <div class = "formulario">
                                         <label for=""> Contraseña</label>
-                                        <input type="text" class = "input-texto">
+                                        <input type="text" class = "input-texto" id = "contrasenia">
                                     </div>
 
                                     <div class = "formulario">
                                         <label for=""> Descripción</label>
-                                        <input type="text" class = "input-texto">
+                                        <input type="text" class = "input-texto" id = "descripcion">
                                     </div>
 
-                                </div>
-                                <div class = "boton-guardar">
-                                    <a href="" class = "boton-lila">
-                                        Guardar cambios
-                                    </a>
-                                </div>
+                                    <button type = "submit" class="boton-lila">Guardar cambios</button>
+
+                                </form>
                             </div>
                         </div>
 

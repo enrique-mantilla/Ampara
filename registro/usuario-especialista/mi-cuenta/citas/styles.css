@@ -203,33 +203,6 @@ body, html {
 
 /*Informacion personal*/
 
-/* Capa oscura detrás */
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    z-index: 999999999; /* ← así sí sales DE TODOS los stacking context */
-    pointer-events: auto;
-}
-
-/* Contenedor centrado */
-.contenedor-central {
-    background: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    width: 400px;              /* ajustable */
-    text-align: center;
-}
-
-
-
 
 h4 {
   font-family: 'Poppins';
@@ -312,8 +285,9 @@ h4 {
 }
 
 .inf-detalle2 p{
-  line-height: 1.5;
+  line-height: 2;
 }
+
 
 .boton-morado {
   white-space: nowrap;
@@ -373,6 +347,118 @@ h4 {
   display: flex;
   align-items: flex-end;
 }
+
+
+/*historial-chat*/
+
+.chat-contenido{
+  gap: 10px;
+  background-color: white;
+  width: 97%;
+}
+
+.bloque-chat1 {
+    display: flex;
+    justify-content: end;
+    margin-right: 1rem;
+}
+
+.bloque-chat1 p{
+    color: #000000;
+    border: 1px solid #482983;
+    border-color: #482983;
+    border-radius: 1rem;
+    padding-right: 3rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.bloque-chat2 {
+    margin-left: 3rem;
+}
+
+
+.bloque-chat2 p{
+    display: inline-block;
+    background-color: #EFE4F7;
+    color: #000000;
+    padding-right: 8rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.boton-chat {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.boton-eliminar {
+  white-space: nowrap;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 20px;
+  border: none;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-decoration: none;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+.boton-morado2 {
+  white-space: nowrap;
+  background-color: #482983;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding-left: 3rem;
+  padding-right: 5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-right: 10px;
+  text-decoration: none;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  position: relative;
+  right: 3rem;
+}
+
 
 /*Footer*/
 .footer {
