@@ -186,6 +186,28 @@
   height: auto;
 }
 
+@media (max-width: 768px) {
+  .cards{
+    flex-direction: column;
+  }
+
+  .card{
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 3rem;
+  }
+
+  .form-imagen{
+    flex-direction: column;
+    padding-left: 0rem;
+  }
+
+  .form-imagen img{
+    display: none;
+  }
+
+}
+
 /*FOOTER*/
 .footer {
   background-color: #482983;
