@@ -297,6 +297,15 @@
     display: none;
   }
 
+  .seccion-hablar-esp{
+    padding: 0;
+    padding-top: 5rem;
+  }
+
+  .cards{
+    flex-direction: column;
+    padding-left: 0rem;
+  }
 }
 
 /*Footer*/

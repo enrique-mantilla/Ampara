@@ -261,9 +261,6 @@
   color: #DDCDE9;
 }
 
-.contenedor-mensaje input:focus {
-  outline: none;
-}
 
 .btn-publicar {
   background: #482983;
@@ -302,18 +299,15 @@
 }
 
 .layout {
-  display: grid;
-  grid-template-columns: minmax(0, 2.2fr) minmax(260px, 1fr);
+  display: flex;
   gap: 26px;
-  margin-top: 10px;
   padding-left: 2rem;
 }
 
 /* POSTS */
 
 .card-pub {
-  display: grid;
-  grid-template-columns: 88px minmax(0, 1fr);
+  display: flex;
   gap: 12px;
   background: white;
   padding: 16px 18px;
@@ -478,6 +472,43 @@
     margin: 0;
     padding: 0;
     display: none;
+  }
+
+  .contenedor-mensaje{
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .div-foro{
+    padding-left: 0.1rem;
+  }
+
+  .tabs {
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+
+  .normas {
+    display: none;
+  }
+
+  .div-publicacion{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card-pub{
+    flex-direction: column;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    height: 20rem;
+    gap: 1rem;
+  }
+
+  .avatar-pub{
+    padding-top: 3rem;
   }
 
 }

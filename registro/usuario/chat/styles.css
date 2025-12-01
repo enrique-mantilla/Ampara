@@ -403,6 +403,16 @@
     display: none;
   }
 
+  .div-chat{
+    flex-direction: column;
+  }
+
+  .girl-img{
+    display: none;
+  }
+
+
+
 }
 
 /*Footer*/

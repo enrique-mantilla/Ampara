@@ -106,7 +106,7 @@
   background-color: black;
 }
 
-/*PANTALLA DIRECTORIO*/
+/*PANTALLA INSTITUCIONES*/
 .seccion-direct{
   background-color: #482983;
   background-size: cover;
@@ -325,6 +325,35 @@
   .menu-horizontal li a.btn-cuenta img {
     margin: 0;
     padding: 0;
+    display: none;
+  }
+
+  .box-busqueda{
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+  }
+
+  .card{
+    padding-top: 1rem;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .div-numeros-img1 img{
+    display: none;
+  }
+
+  .card-detalle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 1rem;
+    padding-right: 3rem;
+  }
+
+  .fav {
     display: none;
   }
 
