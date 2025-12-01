@@ -372,7 +372,6 @@ h4 {
   }
 
   .menu-horizontal li a,
-  .menu-horizontal li a.btn-sos,
   .menu-horizontal li a.btn-cuenta {
     background: none;       /* eliminar colores de botón */
     color: #000000;
