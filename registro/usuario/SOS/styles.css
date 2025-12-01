@@ -157,8 +157,7 @@
   position: relative;
   margin-top: 1rem;
   padding-top: 1rem;
-  padding-right: 20rem;
-  padding-left: 20rem;
+  width: 60%;
   padding-bottom: 43rem;
 }
 
@@ -195,7 +194,7 @@
 
 .sos-botones{
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   margin-top: 5rem;
   margin-bottom: 5rem;
   gap: 1.5rem;
@@ -243,14 +242,14 @@
   }
 
    .menu-horizontal {
-    display: none; /* Ocultar menú horizontal por defecto */
-    flex-direction: column; /* Mostrarlo en vertical al activarse */
+    display: none;
+    flex-direction: column;
     gap: 1rem;
     align-items: end;
     width: 100%;
     background-color: white;
     position: absolute;
-    top: 4.5rem; /* Debajo del menú fijo */
+    top: 4.5rem;
     left: 0;
     z-index: 9999;
   }
@@ -264,7 +263,7 @@
   .menu-horizontal li a,
   .menu-horizontal li a.btn-sos,
   .menu-horizontal li a.btn-cuenta {
-    background: none;       /* eliminar colores de botón */
+    background: none;
     color: #000000;
     padding: 0;
     border-radius: 0;
@@ -292,6 +291,22 @@
     margin: 0;
     padding: 0;
     display: none;
+  }
+
+  .seccion-sos{
+    background-image: none;
+    background-color: #482983;
+  }
+
+  .sos-contenido {
+    width: 100%;
+  }
+
+  .sos-botones{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+    width: auto;
   }
 
 }

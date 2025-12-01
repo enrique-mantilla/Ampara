@@ -361,6 +361,10 @@
     display: none;
   }
 
+  .div-ayuda h1{
+    text-align: center;
+  }
+
   .img-ayuda img {
     display: none;
   }
