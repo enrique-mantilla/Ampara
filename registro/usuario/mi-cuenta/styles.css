@@ -125,7 +125,6 @@
   font-family: 'Poppins',sans-serif;
   height: 100vh;
   padding-top: 2rem;
-  padding-right: 0.5rem;
 }
 
 .opc-perfil ul{
@@ -170,14 +169,6 @@
 
 }
 
-.div-inf{
-  background-color: #482983;
-  flex: 1;
-  font-family: 'Poppins',sans-serif;
-  padding-left: 3rem;
-  color: white;
-}
-
 /*Informacion personal*/
 
 h4 {
@@ -190,6 +181,15 @@ h4 {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
+
+.div-inf{
+  background-color: #482983;
+  flex: 1;
+  font-family: 'Poppins',sans-serif;
+  padding-left: 3rem;
+  color: white;
+}
+
 
 .inf-personal p{
 
@@ -395,6 +395,32 @@ h4 {
   .opc-texto.active {
     display: block;
   }
+
+  .div-inf{
+    padding-left: 1.5rem;
+  }
+
+  .inf-card{
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+  }
+
+  .inf-contenido{
+    flex-direction: column;
+  }
+
+  .div-btn-editar{
+    padding-left: 6rem;
+  }
+
+  .favoritos-contenido{
+    flex-direction: column;
+    width: 95%;
+  }
+
 }
 
 /*Footer*/

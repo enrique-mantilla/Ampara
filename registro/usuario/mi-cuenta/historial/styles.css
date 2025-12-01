@@ -123,7 +123,6 @@
 .opc-perfil{
   background-color: rgb(255, 255, 255);
   font-family: 'Poppins',sans-serif;
-  padding: 20px;
   height: 100vh;
   padding-top: 2rem;
 }
@@ -195,10 +194,14 @@ h4 {
 
 .inf-contenido{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .citas-contenido{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   gap: 10px;
   background-color: white;
@@ -208,6 +211,8 @@ h4 {
 }
 
 .inf-detalle2{
+  display: flex;
+  gap: 3rem;
   color:#909090;
   margin-left: 15px;
 
@@ -223,12 +228,6 @@ h4 {
   line-height: 2;
 }
 
-.boton-chat {
-    display: flex;
-    flex-direction: column;
-    padding-top: 1rem;
-    gap: 1rem;
-}
 
 .boton-morado {
   white-space: nowrap;
@@ -402,6 +401,27 @@ h4 {
   .opc-texto.active {
     display: block;
   }
+
+  .inf-contenido{
+    flex-direction: column;
+  }
+
+  .citas-contenido{
+    flex-direction: column;
+  }
+
+  .boton-chat{
+    padding-left: 6rem;
+  }
+
+  .bloque-chat1{
+    margin: 0;
+    margin-left: 5rem;
+  }
+  .bloque-chat2{
+    margin: 0;
+  }
+
 }
 
 

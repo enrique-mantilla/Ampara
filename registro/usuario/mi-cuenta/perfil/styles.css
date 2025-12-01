@@ -124,7 +124,6 @@
 .opc-perfil{
   background-color: rgb(255, 255, 255);
   font-family: 'Poppins',sans-serif;
-  padding: 20px;
   height: 100vh;
   padding-top: 2rem;
 }
@@ -353,7 +352,7 @@ h4 {
   font-weight: 500;
   font-size: 24px;
   margin: 0;
-  line-height: 0;
+  line-height: 30px;
   margin-top: 1rem;
 }
 
@@ -635,6 +634,54 @@ h4 {
   .opc-texto.active {
     display: block;
   }
+
+  .div-inf-emergencia{
+    padding-left: 1rem;
+  }
+
+  .card-emergencia{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 60%;
+  }
+
+  
+  .campo-ayuda{
+    display: none;
+  }
+
+  .inf-card{
+    flex-direction: column;
+    padding-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-btn-editar{
+    padding-left: 7rem;
+  }
+
+  .div-inf{
+    padding-left: 0.5rem;
+  }
+
+  .info-contenido{
+    flex-direction: column;
+    width: 95%;
+    padding-left: 1rem;
+  }
+
+  .inf-imagenPerfil{
+    padding: 0;
+  }
+
+  .contacto-emergencia{
+    flex-direction: column;
+    gap: 0rem;
+  }
+
 }
 
 

@@ -124,7 +124,6 @@
 .opc-perfil{
   background-color: rgb(255, 255, 255);
   font-family: 'Poppins',sans-serif;
-  padding: 20px;
   height: 100vh;
   padding-top: 2rem;
 }
@@ -364,6 +363,11 @@ h4 {
 
   .opc-texto.active {
     display: block;
+  }
+
+  .favoritos-contenido{
+    flex-direction: column;
+    width: 80%;
   }
 }
 
