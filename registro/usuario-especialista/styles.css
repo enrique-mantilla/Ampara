@@ -273,7 +273,7 @@
     display: block;
   }
 
-   .menu-horizontal {
+  .menu-horizontal {
     display: none; /* Ocultar menú horizontal por defecto */
     flex-direction: column; /* Mostrarlo en vertical al activarse */
     gap: 1rem;

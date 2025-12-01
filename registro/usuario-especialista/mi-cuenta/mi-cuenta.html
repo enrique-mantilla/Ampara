@@ -18,23 +18,26 @@
                 <h1>AMPARA</h1>
             </a>
 
+            <button class="menu-toggle" aria-label="Abrir menú">
+                &#9776;
+            </button>
+
             <ul class="menu-horizontal">
-                <li><a href="">Mensajes</a></li>
                 <li><a href="../pacientes/pacientes.html">Pacientes</a></li>
                 <li><a href="../noticias/noticias.html">Noticias</a></li>
                 <li><a href="../nosotros/nosotros.html">Nosotros</a></li>
+                <li><a href="../mi-cuenta/mi-cuenta.html" class="btn-cuenta">
+                    Mi cuenta
+                    <img src="../img/mi-cuenta-boton.png" alt="mi cuenta boton">
+                </a></li>
             </ul>
-            <a href="../mi-cuenta/mi-cuenta.html" class="btn-cuenta">
-                Mi cuenta
-                <img src="../img/mi-cuenta-boton.png" alt="mi cuenta boton">
-            </a>
         </nav>
 
         <section class="perfil">
             <div class="opc-perfil">
                 <ul>
                     <li>
-                        <a href="premium/premium.html">
+                        <a href="premium/premium.html" class = "plan-premium">
                             <div class = "planes">
                                 <div class ="planes-texto1">
                                     <p>
@@ -51,6 +54,20 @@
                             </div>
                         </a>
                     </li>
+
+                    <li>
+                        <a href="premium/premium.html" class = "icono-premium">
+                            <div class="opcion">
+                                <div class="opc-img">
+                                    <img src="../img/premium.png" alt="user"/>
+                                </div>
+                                <div class="opc-texto">
+                                    <h5>Premium</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
                     <li>
                         <a href="perfil/perfil.html">
                             <div class="opcion">
@@ -113,7 +130,9 @@
                             </div>
                         </a>
                     </li>
-
+                    <button class="menu-toggle2" aria-label="Abrir menú">
+                        &#9776;
+                    </button>
                 </ul>
 
             </div>
