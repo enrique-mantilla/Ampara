@@ -418,6 +418,7 @@
 
   .servicios-contenido{
     flex-direction: column;
+    gap: 2rem;
   }
 
   .servicio1{
@@ -436,7 +437,8 @@
     align-items: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #f0536b;
+    background-color: #ffffff;
+    width: 80%;
   }
 
   .servicio2-contenido{
@@ -446,7 +448,8 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 3rem;
-    background-color: aqua;
+    background-color: #ffffff;
+    width: 80%;
   }
   
   .seccion-servicio-ayuda h2{
