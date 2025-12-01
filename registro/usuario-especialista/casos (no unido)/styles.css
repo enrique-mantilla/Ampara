@@ -49,18 +49,22 @@
   font-size: 20px;
   line-height: 30px;
 
-  color: #000000;
-
-
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 2rem;
+}
 
-.btn-cuenta {
+.menu-horizontal li a.btn-cuenta {
   background-color: #482983;
   border-radius: 20px;
   text-decoration: none;
   margin-right: 50px;
-  white-space: nowrap;
   padding-left: 2rem;
   padding-right: 1rem;
   padding-top: 0.2rem;
@@ -349,6 +353,61 @@
 .card p{
   font-size: 12px;
 }
+
+
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+   .menu-horizontal {
+    display: none; /* Ocultar menú horizontal por defecto */
+    flex-direction: column; /* Mostrarlo en vertical al activarse */
+    gap: 1rem;
+    align-items: end;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 4.5rem; /* Debajo del menú fijo */
+    left: 0;
+    z-index: 9999;
+  }
+
+  .menu-horizontal.active {
+    display: flex;
+    padding-bottom: 1rem;
+    background-color: #fcf8fc;
+  }
+
+  .menu-horizontal li a,
+  .menu-horizontal li a.btn-cuenta {
+    background: none;
+    color: #000000;
+    padding: 0;
+    border-radius: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    margin: 0;
+    padding-right: 2rem;
+  }
+
+  .menu-horizontal li a.btn-cuenta:hover {
+    color: white;   
+    background-color: black;
+  }
+
+  .menu-horizontal li a.btn-cuenta img {
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+}
+
 
 /*Footer*/
 .footer {
