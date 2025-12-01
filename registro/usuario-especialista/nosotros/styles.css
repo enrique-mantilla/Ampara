@@ -223,6 +223,27 @@
     padding: 0;
     display: none;
   }
+
+  .nosotros-contenido{
+    flex-direction: column;
+  }
+
+  .nosotros-texto{
+    width: 90%;
+    padding: 0;
+    text-align: center;
+    padding-left: 1rem;
+  }
+
+  .nosotros-bloques{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 90%;
+    padding-left: 2rem;
+    gap: 3rem;
+    padding-bottom: 1rem;
+  }
 }
 
 
