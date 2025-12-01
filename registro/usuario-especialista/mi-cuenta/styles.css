@@ -241,6 +241,10 @@ h4 {
   display: flex;
 }
 
+.inf-contenido2{
+  display: flex;
+}
+
 .inf-imagenPerfil{
   display: flex;
   align-items: center;
@@ -430,6 +434,27 @@ h4 {
   .icono-premium img{
     width: 1.5rem;
     height: 1.5rem;
+  }
+
+  .inf-card{
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  .inf-contenido{
+    flex-direction: column;
+  }
+  .div-btn-editar{
+    padding-left: 7rem;
+  }
+
+  .citas-contenido{
+    flex-direction: column;
+  }
+
+  .boton-historial{
+    padding-left: 5rem;
   }
 }
 

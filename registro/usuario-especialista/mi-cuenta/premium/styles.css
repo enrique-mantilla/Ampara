@@ -375,6 +375,9 @@ h4 {
     width: 1.5rem;
     height: 1.5rem;
   }
+  .premium-contenido{
+    flex-direction: column;
+  }
 }
 
 

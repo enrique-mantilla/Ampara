@@ -332,8 +332,16 @@ h4 {
   display: flex;
   gap: 2rem;
   justify-content: center;
+  align-items: center;
   padding-left: 2rem;
   padding-top: 0.4rem;
+}
+
+.grupo-etiquetas1{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .etiquetas {
@@ -543,6 +551,33 @@ h4 {
   .icono-premium img{
     width: 1.5rem;
     height: 1.5rem;
+  }
+
+  .info-contenido{
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .textarea-descripcion{
+    padding-left: 1rem;
+  }
+
+  .textarea-descripcion textarea {
+    width: 21rem;
+    height: 6rem;
+  }
+
+  .grupo-etiquetas{
+    flex-direction: column;
+  }
+
+  .grupo-etiquetas1{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info-perfil{
+    padding-left: 1rem;
   }
 }
 

@@ -215,6 +215,24 @@ h4 {
   padding-top: 2rem;
 }
 
+.inf-contenido{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.citas-contenido{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: white;
+  width: 97%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
 .inf-personal p{
 
   font-family: 'Poppins';
@@ -236,10 +254,6 @@ h4 {
 .inf-detalle{
   display: flex;
   flex-direction: column;
-}
-
-.inf-contenido{
-  display: flex;
 }
 
 .inf-imagenPerfil{
@@ -273,6 +287,8 @@ h4 {
 }
 
 .inf-detalle2{
+  display: flex;
+  gap: 3rem;
   color:#909090;
   margin-left: 15px;
 
@@ -295,10 +311,11 @@ h4 {
   color: white;
   border-radius: 20px;
   border: none;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
   margin-right: 10px;
   text-decoration: none;
 
@@ -326,27 +343,11 @@ h4 {
   font-weight: bold;
 }
 
-.citas-contenido{
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  align-items: center;
-  background-color: white;
-  width: 97%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .inf-texto{
   display: flex;
   flex-direction: column;
 }
 
-.boton-historial {
-  margin-top: auto;
-  display: flex;
-  align-items: flex-end;
-}
 
 
 /*historial-chat*/
@@ -540,6 +541,34 @@ h4 {
     width: 1.5rem;
     height: 1.5rem;
   }
+
+  .citas-contenido{
+    flex-direction: column;
+  }
+
+  .boton-historial{
+    padding-left: 5rem;
+  }
+  .inf-contenido{
+    flex-direction: column;
+  }
+
+  .citas-contenido{
+    flex-direction: column;
+  }
+
+  .boton-chat{
+    padding-left: 6rem;
+  }
+
+  .bloque-chat1{
+    margin: 0;
+    margin-left: 5rem;
+  }
+  .bloque-chat2{
+    margin: 0;
+  }
+  
 }
 
 /*Footer*/
