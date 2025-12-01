@@ -13,6 +13,30 @@ const guardarContacto = document.getElementById("boton-guardar-contacto")
 const guardarPerfil = document.getElementById("boton-guardar-perfil")
 
 
+const btn = document.querySelector(".menu-toggle");
+
+const menu = document.querySelector(".menu-horizontal");
+
+const btn2 = document.querySelector(".menu-toggle2");
+
+const menus = document.querySelectorAll(".opc-texto");
+
+if(btn && menu){
+  btn.addEventListener("click", () => {
+
+    menu.classList.toggle("active");
+  
+  });
+}
+
+if (btn2 && menus.length) {
+  btn2.addEventListener("click", () => {
+    menus.forEach(menu => {
+      menu.classList.toggle("active");
+    });
+  });
+}
+
 if (cerrarSesion) {
     cerrarSesion.addEventListener("click", function(e) {
         e.preventDefault(); // detiene la navegación automática
