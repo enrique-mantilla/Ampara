@@ -323,10 +323,17 @@
   display: none;
   padding: 10px 0;
   color: #444;
+  background-color: #FFFFFF;
 }
 
 .faq-answer p {
   margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 1rem;
 }
 
 /* Responsive */
